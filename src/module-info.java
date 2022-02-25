@@ -1,0 +1,2 @@
+module alert_messenger {
+}
