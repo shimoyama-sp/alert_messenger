@@ -26,7 +26,7 @@ public interface Crawler {
         try {
             TimeUnit.MINUTES.sleep(5L);
         } catch (InterruptedException e) {
-            throw new AlertMessengerException("大気中に割り込みが発生しました", e);
+            throw new AlertMessengerException("待機中に割り込みが発生しました", e);
         }
     }
 }
